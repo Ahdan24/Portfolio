@@ -7,8 +7,8 @@ import { FaFacebookSquare } from "react-icons/fa";
 
 const Jumbotron = () => {
   return (
-    <div className="bg-black">
-      <div className="container mx-auto">
+    <div className="bg-black" >
+      <div className="container mx-auto p-5">
         <div className="grid grid-cols-2 gap-10">
           <div className="flex flex-col justify-center gap-4 text-white">
             
