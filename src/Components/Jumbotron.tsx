@@ -9,8 +9,8 @@ const Jumbotron = () => {
           <div className="flex flex-col justify-center gap-4 text-white">
             
             <p>Holla! I'm,</p>
-            <h4 className=" text-2xl">Ahdan Aufa</h4>
-            <h1 className="text-6xl font-bold text-emerald-500 pt-5">Web Developer</h1>
+            <h3 className=" text-2xl">Ahdan Aufa</h3>
+            <h3 className="text-6xl font-bold text-emerald-500 pt-5">Web Developer</h3>
 
             <div className="flex gap-10 py-6">
              

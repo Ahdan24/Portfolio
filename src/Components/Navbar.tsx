@@ -4,18 +4,18 @@ const Navbar = () => {
     <div className="bg-black">
         <div className="container mx-auto flex justify-between text-black px-16 pt-5">
 
-          <div className="text-white  bg-emerald-500 rounded-lg px-3">
-            <p>AA</p>
+          <div className="text-white font-bold px-3">
+            <h1>Ahdan.</h1>
           </div>
           <div className="mx-auto flex justify-between gap-4">
-          <h1 className="bg-white  text-black border border-white px-5 rounded-lg" > Home </h1>
-          <h1 className= "text-black bg-white px-5 rounded-lg "> Services </h1>
-          <h1 className="text-black bg-white px-5 rounded-lg"> About Me </h1>
-          <h1 className="text-black bg-white px-5 rounded-lg"> Portfolio </h1>
-          <h1 className="text-black bg-white px-5 rounded-lg"> Contact</h1>
+          <p className=" text-white  px-5 rounded-lg"> Home </p>
+          <p className=" text-white  px-5 rounded-lg"> About Me </p>
+          <p className=" text-white  px-5 rounded-lg"> Services </p>
+          <p className=" text-white  px-5 rounded-lg"> Portfolio </p>
+          <p className=" text-white  px-5 rounded-lg"> Contact</p>
           </div>
-          <div className="text-white bg-emerald-500 rounded-lg px-3">
-            <button>Hire me</button>
+          <div className="text-white">
+            <button><h1>Hire me</h1> </button>
           </div>
         </div>
       </div>

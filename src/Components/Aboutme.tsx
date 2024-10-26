@@ -12,6 +12,15 @@ const Aboutme = () => {
 
       <div className="mx-auto px-16  ">
         <div className="grid grid-cols-2 gap-10 ">
+
+        <div className="flex justify-center px-10 py-16 rounded-lg pt-24">
+            <img
+              src={Gambar}
+              alt=" Profile"
+              className="h-[300px] w-[300px] border border-emerald-500 rounded-full object-cover"
+            />
+          </div>
+
           <div className="text-center px-10 rounded-lg text-white ">
             <p className="text-2xl text-emerald-500 pb-5 pt-10">Hallo!</p>
             <div>
@@ -42,13 +51,7 @@ const Aboutme = () => {
             </div>
           </div>
 
-          <div className="flex justify-center px-10 py-16 rounded-lg pt-24">
-            <img
-              src={Gambar}
-              alt=" Profile"
-              className="h-[300px] w-[300px] border border-emerald-500 rounded-full object-cover"
-            />
-          </div>
+          
         </div>
       </div>
     </div>

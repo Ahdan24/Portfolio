@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar"
 import Service from "./Components/Service"
 import Aboutme from "./Components/Aboutme"
 import Portfolio from "./Components/Portfolio"
+import './App.css'
 
 
 
