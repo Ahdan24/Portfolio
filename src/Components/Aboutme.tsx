@@ -1,6 +1,8 @@
 import { LiaLinkedinIn } from "react-icons/lia";
 import { AiFillGithub } from "react-icons/ai";
 import { FaFacebookSquare } from "react-icons/fa";
+import Gambar from '../assets/Profile_ahdan.jpg'
+
 
 const Aboutme = () => {
   return (
@@ -40,7 +42,7 @@ const Aboutme = () => {
 
 
                 <div className="flex justify-center py-16 bg-gray-700 bg-opacity-35 rounded-lg">
-                  <img src="src/assets/Profile_ahdan.jpg" alt=" Profile"  className="h-[300px] w-[300px] border border-black rounded-full object-cover" />
+                  <img src={Gambar} alt=" Profile"  className="h-[300px] w-[300px] border border-black rounded-full object-cover" />
                 </div>
 
             </div>
