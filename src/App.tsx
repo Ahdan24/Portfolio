@@ -5,7 +5,8 @@ import Service from "./Components/Service"
 import Aboutme from "./Components/Aboutme"
 import Portfolio from "./Components/Portfolio"
 import './App.css'
-import Contact from "./Components/contact"
+import Contact from "./Components/Contact"
+import Footer from "./Components/Footer"
 
 
 
@@ -18,7 +19,7 @@ const App = () => {
       <Service/>
       <Portfolio/>
       <Contact/>
-      
+      <Footer/>
     </>
   )
 }

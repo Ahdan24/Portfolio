@@ -14,7 +14,6 @@ const Service = () => {
         </div>
 
         <div className="py-5 px-10 grid grid-cols-2 gap-3 ">
-
           <div className="bg-gray-700 bg-opacity-35 rounded-lg text-white p-4">
             <div className="text-emerald-500 text-5xl flex justify-center pt-3">
               <TbWorldWww />
@@ -68,7 +67,7 @@ const Service = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
                 placeat sint et adipisci rerum
               </p>
-            </div>        
+            </div>
           </div>
         </div>
       </div>
