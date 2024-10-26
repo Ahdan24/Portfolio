@@ -2,7 +2,7 @@
 const Navbar = () => {
   return (
     <div className="bg-black">
-        <div className="container mx-auto flex justify-between text-black p-5">
+        <div className="container mx-auto flex justify-between text-black px-16 pt-5">
 
           <div className="text-white  bg-emerald-500 rounded-lg px-3">
             <p>AA</p>
