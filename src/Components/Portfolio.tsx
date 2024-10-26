@@ -1,11 +1,15 @@
+import porto from '../assets/portfolio.jpg'
+import porto2 from '../assets/portfolio2.webp'
+import porto1 from '../assets/Portfolio1.png'
+
 const Portfolio = () => {
   return (
     <div className="bg-black">
       <div className="container mx-auto text-center pt-20 px-16">
         <div>
-          <h1 className="font-bold flex justify-center text-2xl text- py-3 text-white">
+          <h2 className="font-bold flex justify-center text-2xl text- py-3 text-white">
             Portfolio
-          </h1>
+          </h2>
           <p className="flex justify-center text- py-3 text-white">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, eos?
           </p>
@@ -15,33 +19,21 @@ const Portfolio = () => {
           <div className="bg-gray-700 bg-opacity-35 rounded-lg text-white p-4">
             <p className="flex justify-center">Web Maintenance</p>
             <div>
-              <p className="p-10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                placeat sint et adipisci rerum facere modi, ab odio distinctio
-                qui, expedita cumque est voluptates labore neque earum debitis
-                dolori
-              </p>
+             <img src={porto} alt="" />
             </div>
           </div>
 
           <div className="bg-gray-700 bg-opacity-35 rounded-lg text-white p-4">
             <p className="flex justify-center">Web Maintenance</p>
             <div>
-              <p className="p-10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                placeat sint et adipisci rerum facere modi, ab odio distinctio
-                qui, expedita cumque est voluptates labore neque earum debitis
-              </p>
+              <img src={porto2} alt="" />
             </div>
           </div>
 
           <div className="bg-gray-700 bg-opacity-35 rounded-lg text-white p-4">
             <p className="flex justify-center">Web Maintenance</p>
             <div>
-              <p className="p-10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                placeat sint et adipisci rerum
-              </p>
+              <img src={porto1} alt="" />
             </div>
           </div>
         </div>

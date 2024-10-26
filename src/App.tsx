@@ -5,6 +5,7 @@ import Service from "./Components/Service"
 import Aboutme from "./Components/Aboutme"
 import Portfolio from "./Components/Portfolio"
 import './App.css'
+import Contact from "./Components/contact"
 
 
 
@@ -16,6 +17,7 @@ const App = () => {
       <Aboutme/>
       <Service/>
       <Portfolio/>
+      <Contact/>
       
     </>
   )

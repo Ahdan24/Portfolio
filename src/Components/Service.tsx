@@ -5,9 +5,9 @@ const Service = () => {
     <div className="bg-black">
       <div className="container mx-auto text-center pt-20 px-16">
         <div>
-          <h1 className="font-bold flex justify-center text-2xl text- py-3 text-white">
+          <h2 className="font-bold flex justify-center text-2xl text- py-3 text-white">
             Services
-          </h1>
+          </h2>
           <p className="flex justify-center text- py-3 text-white">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, eos?
           </p>

@@ -7,7 +7,7 @@ const Aboutme = () => {
   return (
     <div className="bg-black container mx-auto  px-14 pt-20">
       <div className="text-center">
-        <p className="text-white text-2xl font-bold py-5">About Me</p>
+        <h3 className="text-white text-2xl font-bold py-5">About Me</h3>
       </div>
 
       <div className="mx-auto px-16  ">
