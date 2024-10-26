@@ -1,6 +1,4 @@
 
-
-
 const Jumbotron = () => {
   return (
     <div className="bg-black" >
