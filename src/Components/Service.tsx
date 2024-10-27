@@ -2,7 +2,7 @@ import { TbWorldWww } from "react-icons/tb";
 
 const Service = () => {
   return (
-    <div className="bg-black">
+    <div id= 'Services' className="bg-black">
       <div className="container mx-auto text-center pt-20 px-16">
         <div>
           <h2 className="font-bold flex justify-center text-2xl text- py-3 text-white">

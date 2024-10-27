@@ -6,7 +6,7 @@ import Gambar from "../assets/aboutme.png";
 
 const Aboutme = () => {
   return (
-    <div className="bg-black px-14 pt-20">
+    <div id= 'Aboutme' className="container bg-black px-14 pt-20">
       <div className="text-center">
         <h3 className="text-white text-2xl font-bold py-5">About Me</h3>
       </div>
