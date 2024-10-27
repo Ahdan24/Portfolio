@@ -31,7 +31,7 @@ const Jumbotron = () => {
               </div>
               <div className="w-33 px-3">
                 <p className="text-emerald-500 flex justify-center font-bold">
-                  80+
+                  70+
                 </p>
                 <p>Happy Clients</p>
               </div>
