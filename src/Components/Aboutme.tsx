@@ -6,7 +6,7 @@ import Gambar from "../assets/aboutme.png";
 
 const Aboutme = () => {
   return (
-    <div className="bg-black container mx-auto  px-14 pt-20">
+    <div className="bg-black px-14 pt-20">
       <div className="text-center">
         <h3 className="text-white text-2xl font-bold py-5">About Me</h3>
       </div>
@@ -37,7 +37,7 @@ const Aboutme = () => {
               </p>
             </div>
 
-            <div className="mt-10 pt-10 justify-center flex gap-5 text-3xl text-emerald-500">
+            <div className="mt-10 p-7 justify-center flex gap-5 text-3xl text-emerald-500">
               <section>
                 <LiaLinkedinIn />
               </section>

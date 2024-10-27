@@ -8,9 +8,6 @@ const Service = () => {
           <h2 className="font-bold flex justify-center text-2xl text- py-3 text-white">
             Services
           </h2>
-          <p className="flex justify-center text- py-3 text-white">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, eos?
-          </p>
         </div>
 
         <div className="py-5 px-10 grid grid-cols-2 gap-3 ">

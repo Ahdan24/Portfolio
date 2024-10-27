@@ -21,7 +21,7 @@ const contact = () => {
           </div>
           <div className="flex gap-4">
             <input
-              type="tel"
+              type="number"
               placeholder="Phone Number"
               className="w-full px-4 py-2 bg-emerald-500 bg-opacity-50 text-white rounded-md focus:outline-none"/>
             <select className="w-full px-4 py-2 bg-emerald-500 bg-opacity-50 text-white rounded-md focus:outline-none">

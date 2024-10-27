@@ -1,16 +1,16 @@
 const Jumbotron = () => {
   return (
     <div className="bg-black">
-      <div className="container mx-auto px-16 pt-16">
+      <div className="container mx-auto px-16 pt-9">
         <div className="grid grid-cols-2 gap-10">
           <div className="flex flex-col justify-center gap-4 text-white">
-            <p className=" pt-10">Holla! I'm,</p>
-            <h3 className=" text-2xl">Ahdan Aufa</h3>
+            <p className=" pt-5">Holla! I'm,</p>
+            <h3 className=" text-2xl">Ahdan Aufa.</h3>
             <h3 className="text-6xl font-bold text-emerald-500 pt-5">
               Web Developer
             </h3>
 
-            <div className="flex justify-between gap-10 pt-10">
+            <div className="flex justify-between gap-10 pt-14">
               <button className="h-10 w-30 rounded-md bg-black px-4 py-2 border border-emerald-500 text-white ">
                 Download Cv
               </button>
@@ -38,10 +38,10 @@ const Jumbotron = () => {
             </div>
           </div>
           <div>
-            <div className="flex justify-center">
+            <div className="flex justify-end">
               <img
                 src="https://img.freepik.com/premium-vector/hacker-with-laptop-vector-illustration-black-background_938798-509.jpg"
-                className="h-[400px] w-[400px] object-cover"
+                className="h-[400px] w-[400px] object-cover pt-24"
               />
             </div>
           </div>
