@@ -8,13 +8,13 @@ const Navbar = () => {
   };
   return (
    
-    <nav className="container bg-black">
+    <nav className="container sticky top-0 z-10 bg-black">
     
           <div className=' flex justify-center' >
-            <img src={Gambar_1} alt="Logo_Ahdan" className="flex justify-center h-20 w-30 p-1" />
+            <img src={Gambar_1} alt="Logo_Ahdan" className="flex justify-center h-16 w-56 p-3" />
           </div>
 
-        <div>
+        <div className='text-lg'>
         <ul className=" text-white font-bold flex justify-center gap-4">
           <li>
              <a href='#Home' onClick={(e) => handleSmoothScroll(e, "Home")} className=" hover:text-emerald-500 px-5">Home</a>
