@@ -1,6 +1,9 @@
-const Contact = () => {
+const Kontak = () => {
   return (
-    <div id= 'Contact' className="flex justify-center items-center min-h-screen bg-black text-white">
+    <div
+      id="Contact"
+      className="flex justify-center items-center min-h-screen bg-black text-white"
+    >
       <div className="w-full max-w-md px-8 py-6 mx-auto bg-gray-700 rounded-lg bg-opacity-35 shadow-lg">
         <h3 className="text-2xl font-bold text-center mb-2">Contact me</h3>
         <p className="text-center text-white mb-6">
@@ -23,7 +26,8 @@ const Contact = () => {
             <input
               type="number"
               placeholder="Phone Number"
-              className="w-full px-4 py-2 bg-emerald-500 bg-opacity-50 text-white rounded-md focus:outline-none"/>
+              className="w-full px-4 py-2 bg-emerald-500 bg-opacity-50 text-white rounded-md focus:outline-none"
+            />
             <select className="w-full px-4 py-2 bg-emerald-500 bg-opacity-50 text-white rounded-md focus:outline-none">
               <option>Build server</option>
               <option>Maintenance Web</option>
@@ -37,7 +41,8 @@ const Contact = () => {
           ></textarea>
           <button
             type="submit"
-            className="w-full px-4 py-2 bg-gray-8 hover:bg-emerald-500 rounded-md font-semibold">
+            className="w-full px-4 py-2 bg-gray-8 hover:bg-emerald-500 rounded-md font-semibold"
+          >
             Send
           </button>
         </form>
@@ -46,4 +51,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Kontak;
