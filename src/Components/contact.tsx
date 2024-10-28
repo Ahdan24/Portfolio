@@ -1,4 +1,4 @@
-const contact = () => {
+const Contact = () => {
   return (
     <div id= 'Contact' className="flex justify-center items-center min-h-screen bg-black text-white">
       <div className="w-full max-w-md px-8 py-6 mx-auto bg-gray-700 rounded-lg bg-opacity-35 shadow-lg">
@@ -46,4 +46,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
